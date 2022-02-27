@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="logo.png" alt="" class="logo"></a>
+            <div class="toggleMenu" onclick="menuToggle()"></div>
+            <ul class="nevigation">
+                <a class="active" href="#"><li>Home</li></a>
+                <a href="#"><li>View Products</li></a>
+                <a href="#"><li>What's New</li></a>
+                <a href="#"><li>Newsletter</li></a>
+                <a href="#"><li>Contact</li></a>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>THAT'S WHAT <br><span>I LIKE</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolorem tempora ratione iste accusamus incidunt nesciunt aliquid eveniet atque? Numquam asperiores non inventore praesentium, officia commodi et veniam. Veniam id cumque quis sequi nihil, corrupti non placeat sed laboriosam magni.</p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="pepsi001.png" alt="" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="pepsi001.png" onclick="imgSlider('pepsi001.png');chnangeBgColor('#0062be')" alt=""></li>
+            <li><img src="pepsi002.png" onclick="imgSlider('pepsi002.png');chnangeBgColor('#e60c2c')" alt=""></li>
+            <li><img src="pepsi003.png" onclick="imgSlider('pepsi003.png');chnangeBgColor('#1e1e1e')" alt=""></li>
+        </ul>
+        <ul class="soc">
+            <li><a href="#"><img src="facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="facebook (2).png" alt=""></a></li>
+            <li><a href="#"><img src="facebook (1).png" alt=""></a></li>
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
